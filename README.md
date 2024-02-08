@@ -38,9 +38,9 @@ The first dashboard page is useful as a general view and more oriented on the he
 
 Consult the _Node_ page for disk space, read columns from right to left:
 
-Column _Size_ - that is exactly what storage you have on the node (total disk space of the node minus reserved space). For details, click on the three lines menu on each node to _Edit node and disks_.
+Column _Size_ - that is exactly what storage you have on the node (total disk space of the node minus reserved space). For details, click on column _Operation_ on the three lines menu on each node to _Edit node and disks_.
 
-Column _Used_ X/Y - X is exactly how much storage is used inside volumes. For example, you may create a 10GB PVC/PV and store only 1GB files inside it. Second number in this column is total space on the node (reserved space included).
+Column _Used_ X/Y - X is exactly how much storage are using inside volumes. For example, you may create a 10GB PVC/PV and store only 1GB files inside it. Second number in this column is total space on the node (reserved space included).
 
 Column _Allocated_ Z/T - Z is the sum of sum allocated disk space by volumes, the _storage:_ part in PVC definition:
 
